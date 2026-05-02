@@ -37,9 +37,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 builder.Services.AddAuthorization();
-
-// แก้ไข: เปลี่ยนจาก Microsoft.AspNetCore.OpenApi → Swashbuckle เพื่อให้มี Swagger UI ที่ /swagger
-// พร้อม Bearer token support สำหรับทดสอบ endpoint ที่ต้อง Authorize
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -49,8 +46,7 @@ builder.Services.AddSwaggerGen(c =>
         Version = "v1",
         Description = "API for user authentication and book likes"
     });
-
-    // เพิ่ม Bearer token input ใน Swagger UI
+    
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
