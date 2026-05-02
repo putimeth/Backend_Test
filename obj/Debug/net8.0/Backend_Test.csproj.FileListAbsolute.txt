@@ -141,3 +141,4 @@
 /Users/ppraew/Downloads/Backend_Test_Fixed/Backend_Test_Submit/Backend_Test/obj/Debug/net8.0/Backend_Test.pdb
 /Users/ppraew/Downloads/Backend_Test_Fixed/Backend_Test_Submit/Backend_Test/obj/Debug/net8.0/Backend_Test.genruntimeconfig.cache
 /Users/ppraew/Downloads/Backend_Test_Fixed/Backend_Test_Submit/Backend_Test/obj/Debug/net8.0/ref/Backend_Test.dll
+/Users/ppraew/Downloads/Backend_Test_Fixed/Backend_Test_Submit/Backend_Test/obj/Debug/net8.0/Backend_Test.sourcelink.json
