@@ -13,9 +13,7 @@ public class BookController : ControllerBase
 {
     private readonly ApiDbContext _db;
     private readonly IHttpClientFactory _httpClientFactory;
-    // แก้ไข: เปลี่ยนจาก http → https ตาม spec
     private const string BooksApiUrl = "https://api.itbook.store/1.0/search/mysql";
-
     public BookController(ApiDbContext db, IHttpClientFactory httpClientFactory)
     {
         _db = db;
